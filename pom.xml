@@ -6,7 +6,7 @@
 
     <groupId>ru.tehkode.modifyworld.bukkit</groupId>
     <artifactId>ModifyWorld</artifactId>
-    <version>1.21.1</version>
+    <version>1.21.2</version>
     <name>ModifyWorld</name>
 
     <build>
@@ -53,21 +53,14 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.15.1-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <!--Bukkit API-->
-        <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.15.1-R0.1-SNAPSHOT</version>
+            <version>1.18.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <!--Vault-->
         <dependency>
             <groupId>com.github.MilkBowl</groupId>
             <artifactId>VaultAPI</artifactId>
-            <version>1.7</version>
+            <version>1.7.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
