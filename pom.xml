@@ -53,8 +53,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.18.2-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <version>1.21-R0.1-SNAPSHOT</version>
         </dependency>
         <!--Vault-->
         <dependency>
@@ -62,6 +61,12 @@
             <artifactId>VaultAPI</artifactId>
             <version>1.7.1</version>
             <scope>provided</scope>
+        </dependency>
+        <!-- annotations -->
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.0.1</version>
         </dependency>
     </dependencies>
 
